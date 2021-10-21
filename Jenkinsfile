@@ -13,7 +13,7 @@ pipeline {
 			steps {
 				echo 'executing gradle...'
                 withGradele() {
-                    sh './gradelew -v'
+                    sh './gradlew -v'
                 }
 			}
 		}
